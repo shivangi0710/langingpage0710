@@ -1,0 +1,295 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    line-height: 110%;
+    margin-bottom: 10px;
+}
+
+.topbar{
+    margin:0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    background-color:white;
+    display: flex;
+    width: 100%;
+    height: 45px;
+
+}
+.topbar_logo{
+    margin-left: 0px;
+    width: 30%;
+    height: 58px;
+}
+.logo_rap{
+    margin-left: 130px;
+
+}
+.logo{
+    padding-top: 10px;
+    width: 140px;
+    height: 40px;
+    margin-right: 0;
+}
+.topbar_nav{
+    margin-left: 0px;
+    margin-top: 30px;
+    width: 40%;
+
+}
+.nav_rap{
+    margin-left: 125px;
+}
+.topbar_nav a{
+    width: 50%;
+    margin: 10px;
+    text-decoration: none;
+    color: inherit;
+
+}
+.topbar_nav a:hover{
+    border-bottom: 3px solid ;
+}
+.topbar_btn{
+    width:30%;
+}
+
+
+.btn_rap{
+    width:100%;
+
+}
+.btna{
+    margin-top: 13px;
+    margin-left: 110px;
+    border: none;
+    background-color: #FFD8DB;
+    color: blue;
+    width: 125px ;
+    height: 40px;
+    border-radius: 17px;
+    cursor: pointer;
+    font-size: 8px;
+    font-family: 'Poppins', sans-serif; ;
+   
+}
+.btna:hover{
+    background-color: #FF69B4;
+    font-size: 13px;
+    font-weight: bold;
+    
+}
+.container{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    margin-top: 60px;
+    
+}
+.sub_container_1{
+    width:42%;
+    margin-left: 206px;
+    align-items: flex-start;
+    
+
+}
+.sub_container_2{
+    width: 58%;
+    margin-right: 150px;
+}
+.landing_image{
+    width:500px;
+    height: 420px;
+}
+.section_image{
+    width:100%;
+    margin-top: 70px;
+    margin-right:0px ;
+    margin-left: 0;
+    vertical-align: middle;
+}
+.heading_card{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+  
+}
+.new_btn{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+.new_btn_rap{
+    width:40%;
+}
+
+.arrow_rap{
+    width:20%
+}
+.New_account{
+    width:100px;
+    height:40px;
+    background-color: rgb(45, 45, 121);
+    border:none;
+    border-radius: 17px;
+    color: whitesmoke;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;;
+    vertical-align: middle;
+    margin-top: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.New_account:hover{
+    background-color: blueviolet;
+    font-weight: 900;
+    font-size: 12px;
+}
+
+.arrow{
+    padding-top:2px;
+    width:30px;
+    height:30px;
+    border-radius: 15pc  #a0a0a0;
+    margin-left :5px; ;
+    border :thin 3px block ;
+    margin-top: 10px;
+    margin-right:5px;
+    cursor: pointer;
+}
+.arrow:hover{
+border: 1px solid #1E90FF;
+border-radius: 15pc;
+
+}
+    
+.heading{
+    font-size: 40px;
+    margin-bottom: 0 ;
+    margin-top: 0;
+    text-align: left;
+}
+p
+{
+   font-size: 13px; 
+}
+
+
+.card_container{
+    margin-top: 30px;
+    width: 100%;
+}
+
+
+
+.card{
+    width: 415px;
+    height: 45px;
+    border-radius: 13px;
+    background-color: whitesmoke;
+    
+    display: flex;
+    /* justify-content: space-evenly; */
+    float: left;
+    flex-direction: row ;
+    
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 4px;
+    margin-top: 4px;
+
+
+}
+.card:hover{
+    background-color: white;
+    box-shadow: 5px 10px 18px #888888;
+}
+#active_card:active{
+    background-color: white;
+    box-shadow: 5px 10px 18px #888888;
+
+}
+
+
+.btn_icon{
+    width:24px;
+    height: 14px;
+    border-radius:7px ;
+    border: none;
+    
+}
+#pink{
+    background-color: pink;
+}
+#red{
+    background-color: red;
+    
+}
+#green{
+    background-color: limegreen;
+
+}
+#yellow{
+    background-color: yellow;
+}
+p{
+    text-align: left;
+}
+.checkbox{
+    margin-left: 15px;
+    margin-top: 6px;
+    width:30px;
+    border-radius: 15px bold black;
+    cursor: pointer;
+    
+
+}
+.checkbox:hover{
+    border: 2px groove #1E90FF;
+    border-radius: 15pc;
+}
+
+    
+.para{
+    margin-left: 0;
+    width:30%;
+
+}
+.date{
+    width:20%;
+}
+.icon{
+    margin-left: 0;
+    width:15% ;
+
+}
+.user{
+    margin-top: 5px;
+    padding-left: 13px;
+}
+.date p {
+    text-align: right;
+    color: #a0a0a0;
+}
+.btn_icon_rap{
+    width: 100%;
+    padding-left: 25px;
+
+}
+
+    
+.btn{
+    margin-left: 0;
+    width:16% ;
+}
